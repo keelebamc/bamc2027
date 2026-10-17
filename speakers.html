@@ -1,45 +1,212 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Speakers | BAMC 2027</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
+<style>
 
-<header>
-<div class="header-container">
-<h1>BAMC 2027</h1>
-<p class="subtitle">British Applied Mathematics Colloquium</p>
-<p class="details">Keele University • 21–24 June 2027</p>
-</div>
-</header>
+.speaker {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #dddddd;
+}
 
-<nav>
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="programme.html">Programme</a></li>
-<li><a href="speakers.html">Mini‑Symposia</a></li>
-<li><a href="speakers.html">Speakers</a></li>
-<li><a href="registration.html">Registration</a></li>
-<li><a href="venue.html">Venue</a></li>
-<li><a href="committee.html">Committee</a></li>
-</ul>
-</nav>
+.speaker:last-child {
+    border-bottom: none;
+}
 
-<section class="content">
-<div class="container">
+.speaker-photo {
+    flex: 0 0 220px;
+}
+
+.speaker-photo img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.speaker-info {
+    flex: 1;
+}
+
+.speaker-info h4 {
+    margin-top: 0;
+    margin-bottom: 4px;
+    color: #7B1042;
+}
+
+.speaker-affiliation {
+    font-style: italic;
+    color: #666666;
+    margin-bottom: 12px;
+}
+
+.speaker-links {
+    margin-top: 12px;
+}
+
+.speaker-links a {
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.speaker-links a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+
+    .speaker {
+        flex-direction: column;
+    }
+
+    .speaker-photo img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+}
+
+</style>
+
 <div class="column">
-<h3>Speakers</h3>
-<p>Coming Soon</p>
-</div>
-</div>
-</section>
 
-<footer>
-<p>© 2027 BAMC | Hosted by Keele University</p>
-</footer>
+<h3>Plenary Speakers</h3>
 
-</body>
-</html>
+<p>
+BAMC 2027 is delighted to welcome five internationally recognised researchers whose work spans the breadth of contemporary applied mathematics.
+</p>
+
+<div class="speaker">
+
+    <div class="speaker-photo">
+        <img src="images/david-abrahams.png" alt="Professor David Abrahams">
+    </div>
+
+    <div class="speaker-info">
+
+        <h4>Professor David Abrahams CBE</h4>
+
+        <div class="speaker-affiliation">
+            Isaac Newton Institute for Mathematical Sciences, University of Cambridge
+        </div>
+
+        <p>
+            David Abrahams is one of the United Kingdom's most distinguished applied mathematicians. His work has shaped modern understanding of wave phenomena and the mathematical techniques used to analyse complex physical systems. Throughout his career he has combined influential research with leadership across the mathematical sciences community, helping strengthen links between mathematics, engineering and industry. His contributions have been recognised through numerous honours and awards.
+        </p>
+
+        <div class="speaker-links">
+            <a href="https://www.newton.ac.uk" target="_blank">Website</a>
+            <a href="https://en.wikipedia.org/wiki/David_Abrahams_(mathematician)" target="_blank">More Information</a>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="speaker">
+
+    <div class="speaker-photo">
+        <img src="images/tiina-roose.png" alt="Professor Tiina Roose">
+    </div>
+
+    <div class="speaker-info">
+
+        <h4>Professor Tiina Roose</h4>
+
+        <div class="speaker-affiliation">
+            University of Southampton
+        </div>
+
+        <p>
+            Tiina Roose works at the interface of mathematics, biology and environmental science. Her research combines mathematical modelling, computation and experiment to understand how plants and soils interact across multiple scales. Through extensive interdisciplinary collaboration, her work demonstrates how mathematics can contribute to global challenges in sustainable agriculture, environmental resilience and food security.
+        </p>
+
+        <div class="speaker-links">
+            <a href="https://www.southampton.ac.uk/people/5x5twj/professor-tiina-roose" target="_blank">Website</a>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="speaker">
+
+    <div class="speaker-photo">
+        <img src="images/laurette-tuckerman.png" alt="Professor Laurette Tuckerman">
+    </div>
+
+    <div class="speaker-info">
+
+        <h4>Professor Laurette Tuckerman</h4>
+
+        <div class="speaker-affiliation">
+            CNRS and ESPCI Paris
+        </div>
+
+        <p>
+            Laurette Tuckerman is internationally recognised for her contributions to fluid dynamics, nonlinear systems and scientific computing. Her research has provided fundamental insight into flow instabilities, pattern formation and turbulent behaviour, while her computational methods have influenced a wide range of disciplines across applied mathematics and physics.
+        </p>
+
+        <div class="speaker-links">
+            <a href="https://blog.espci.fr/laurette/" target="_blank">Website</a>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="speaker">
+
+    <div class="speaker-photo">
+        <img src="images/chris-breward.png" alt="Professor Chris Breward">
+    </div>
+
+    <div class="speaker-info">
+
+        <h4>Professor Chris Breward</h4>
+
+        <div class="speaker-affiliation">
+            University of Oxford
+        </div>
+
+        <p>
+            Chris Breward's workuring, biological systems and technological processes. His career has been marked by a strong commitment to industrially focused mathematics and collaborative research.
+        </p>
+
+        <div class="speaker-links">
+            <a href="https://people.maths.ox.ac.uk/~breward/" target="_blank">Website</a>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="speaker">
+
+    <div class="speaker-photo">
+        images/anna-pandolfi.png
+    </div>
+
+    <div class="speaker-info">
+
+        <h4>Professor Anna Pandolfi</h4>
+
+        <div class="speaker-affiliation">
+            Politecnico di Milano
+        </div>
+
+        <p>
+            Anna Pandolfi is a leading researcher in computational mechanics and biomechanics. Her work focuses on the development of advanced mathematical and computational methods for understanding how materials and biological tissues deform, interact and fail under complex conditions. Her research has influenced both engineering and biomedical applications.
+        </p>
+
+        <div class="speaker-links">
+            <a href="https://pandolfi.faculty.polimi.it/" target="_blank">Website</a>
+        </div>
+
+    </div>
+
+</div>
+
+</div>
