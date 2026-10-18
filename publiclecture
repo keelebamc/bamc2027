@@ -29,6 +29,10 @@
 </ul>
 </nav>
 
+
+
+<section class="content">
+<div class="container">
 <section class="content">
 <div class="container">
 <div class="column">
@@ -85,25 +89,6 @@ Further information on registration for the public lecture will be announced in 
 <footer>
 <p>© 2027 BAMC | Hosted by Keele University</p>
 </footer>
-
-<nav>
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="programme.html">Programme</a></li>
-<li><a href="speakers.html">Mini‑Symposia</a></li>
-<li><a href="speakers.html">Plenary Speakers</a></li>
-<li><a href="publiclecture.html">Registration</a></li>
-<li><a href="registration.html">Registration</a></li>
-<li><a href="venue.html">Venue</a></li>
-<li><a href="committee.html">Committee</a></li>
-</ul>
-</nav>
-
-<section class="content">
-<div class="container">
-<div class="column">
-<h3>Public Lecture</h3>
-<p>Coming Soon</p>
 </div>
 </div>
 </section>
