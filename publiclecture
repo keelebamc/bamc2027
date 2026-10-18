@@ -22,6 +22,76 @@
 <li><a href="programme.html">Programme</a></li>
 <li><a href="speakers.html">Mini‑Symposia</a></li>
 <li><a href="speakers.html">Plenary Speakers</a></li>
+<li>public-lecture.htmlPublic Lecture</a></li>
+<li><a href="registration.html">Registration</a></li>
+<li><a href="venue.html">Venue</a></li>
+<li><a href="committee.html">Committee</a></li>
+</ul>
+</nav>
+
+<section class="content">
+<div class="container">
+<div class="column">
+
+<h3>BAMC 2027 Public Lecture</h3>
+
+<p>
+The BAMC 2027 Public Lecture will be delivered by
+<strong>Professor Des Higham OBE FRSE FIMA</strong>
+(University of Edinburgh).
+</p>
+
+<p style="text-align:center;">
+images/des-higham.png
+</p>
+
+<h4>About the Speaker</h4>
+
+<p>
+Des Higham is one of the United Kingdom’s leading applied mathematicians and an internationally recognised advocate for mathematics. His research spans numerical analysis, scientific computing, data science and network science, with particular interests in developing mathematical methods that help us understand complex systems and emerging technologies.
+</p>
+
+<p>
+Alongside his research achievements, Professor Higham is widely known for his commitment to public engagement. Through lectures, articles, books and outreach activities, he has helped make modern mathematics accessible to diverse audiences. His work highlights the many ways in which mathematical thinking informs contemporary science, technology and society.
+</p>
+
+<p>
+Professor Higham’s ability to combine deep mathematical insight with engaging communication has made him one of the most popular public speakers in the mathematical sciences community.
+</p>
+
+<h4>Lecture Title</h4>
+
+<p>
+To be announced.
+</p>
+
+<h4>Date and Venue</h4>
+
+<p>
+Keele University<br>
+June 2027
+</p>
+
+<h4>Registration</h4>
+
+<p>
+Further information on registration for the public lecture will be announced in due course.
+</p>
+
+</div>
+</div>
+</section>
+
+<footer>
+<p>© 2027 BAMC | Hosted by Keele University</p>
+</footer>
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="programme.html">Programme</a></li>
+<li><a href="speakers.html">Mini‑Symposia</a></li>
+<li><a href="speakers.html">Plenary Speakers</a></li>
 <li><a href="publiclecture.html">Registration</a></li>
 <li><a href="registration.html">Registration</a></li>
 <li><a href="venue.html">Venue</a></li>
