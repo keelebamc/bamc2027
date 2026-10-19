@@ -19,26 +19,24 @@ header h1 {
   font-size: 42px;
 }
 
-.header-container {
-  max-width: 1200px;
-  margin: 0 auto;
+header {
+background: #271E3D;
+color: white;
+padding: 60px 20px;
+text-align: center;
+position: relative;
 }
-
-.header-layout {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+ 
+.banner-logo {
+position: absolute;
+right: 30px;
+top: 50%;
+transform: translateY(-50%);
 }
-
-.header-text {
-  flex: 1;
-  text-align: center;
-}
-
-.header-logo img {
-  height: 120px;
-  width: auto;
-  display: block;
+ 
+.banner-logo img {
+height: 140px;
+width: auto;
 }
 
 .subtitle {
