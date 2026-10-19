@@ -8,10 +8,11 @@ body {
 
 /* HEADER */
 header {
-  background: #271E3D; /* Keele dark blue */
+  background: #271E3D;
   color: white;
   padding: 60px 20px;
   text-align: center;
+  position: relative;
 }
 
 header h1 {
@@ -19,24 +20,15 @@ header h1 {
   font-size: 42px;
 }
 
-header {
-background: #271E3D;
-color: white;
-padding: 60px 20px;
-text-align: center;
-position: relative;
-}
- 
 .banner-logo {
-position: absolute;
-right: 30px;
-top: 50%;
-transform: translateY(-50%);
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
- 
+
 .banner-logo img {
-height: 140px;
-width: auto;
+  height: 140px;
+  width: auto;
 }
 
 .subtitle {
