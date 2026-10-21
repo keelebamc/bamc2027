@@ -133,7 +133,9 @@ footer p {
   margin-bottom: 20px;
 }
 
-
+.nav-header {
+  display: none;
+}
 
 /* MOBILE NAVIGATION */
 @media (max-width: 768px) {
